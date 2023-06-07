@@ -1,0 +1,8 @@
+str = input("enter the string:")
+print(len(str))
+if len(str) % 4 == 0 :
+    print(''.join(reversed(str)))
+    x = str.capitalize()
+    print(x)
+else:
+    print(str)
