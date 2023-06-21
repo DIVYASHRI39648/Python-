@@ -1,0 +1,9 @@
+Tuple1 = (25, -11, -22, 17, 0, -9, 43, 17, -10) 
+print(" Tuple Items = ",Tuple1)
+print("\nThe Positive Numbers in Tuple1 are:")
+i = 0
+while (i < len(Tuple1)):
+ if(Tuple1[i] >= 0):
+   print(Tuple1[i], end = "  ")
+ i = i+1
+
