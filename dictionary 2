@@ -1,0 +1,6 @@
+Dict={'Name': 'divya', 'Age': 10, 'gender': 'female'}
+inverted={}
+for key, val in Dict.items():
+    inverted[val]=key
+print("Dict:", Dict)
+print("Inverted Dict:", inverted)
